@@ -4240,7 +4240,7 @@ $(document).ready(function () {
             body.addClass("modal-open");
             $.ajax({
                 dataType: "json",
-                url: "/home.json",
+                url: "./home.json",
                 success: function (data) {
                     var galleryData = data[gallery];
 
