@@ -1928,7 +1928,7 @@ sup {
   border: solid 6px black; }
 
 .article--contact .gallery__thumb {
-  width: 40%;
+  width: 28%;
   display: inline-block;
   position: relative;
   left: 0;
@@ -1971,6 +1971,8 @@ sup {
           width: 28px;
           height: auto; }
           .article--contact .gallery__thumb .gallery__title .links a svg.twitter {
+            width: 32px; }
+		  .article--contact .gallery__thumb .gallery__title .links a svg.email {
             width: 32px; }
           .article--contact .gallery__thumb .gallery__title .links a svg.steam {
             width: 40px; }
