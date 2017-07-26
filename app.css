@@ -957,7 +957,7 @@ p {
  * may not operate correctly without them.
  */
 .scroll-pane {
-  display: none; }
+  display: none; outline: none; }
 
 @media screen and (min-width: 50.0625rem) {
   .mobile-only {
