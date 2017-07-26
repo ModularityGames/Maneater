@@ -1319,16 +1319,20 @@ p {
         transition: fill .3s ease-in-out; }
         .body__footer .list--social .list--icon:hover {
           fill: #d20d14; }
+  .body__footer .icon--youtube .svg,
   .body__footer .icon--twitter .svg,
   .body__footer .icon--facebook .svg {
     width: 1.125rem;
     height: 1.125rem; }
-  .body__footer .icon--twitter {
+  .body__footer .icon--youtube {
     width: 15%;
     text-align: center; }
+  .body__footer .icon--twitter {
+    width: 10%;
+    text-align: left; }
   .body__footer .icon--facebook {
     text-align: left;
-    width: 45%; }
+    width: 20%; }
   .body__footer .icon--blindside {
     text-align: right;
     width: 20%; }
@@ -1341,6 +1345,12 @@ p {
     .body__footer .icon--unrealengine .svg {
       width: 2.5rem;
       height: 3.75rem; }
+	  .body__footer .icon--steam {
+	    text-align: left;
+	    width: 15%; }
+	    .body__footer .icon--steam .svg {
+	      width: 2.5rem;
+	      height: 3.75rem; }
 
 .sound--button {
   position: absolute;
@@ -1388,6 +1398,7 @@ p {
       opacity: 0; }
     .sound--button.active .sound--button-off {
       opacity: 0.8; }
+  .icon--youtube a.list--link,
   .icon--facebook a.list--link,
   .icon--twitter a.list--link {
     margin-bottom: 0.5rem; } }
@@ -1411,7 +1422,8 @@ p {
     margin: -4.75rem auto 0 auto;
     padding: 0.5rem 0 0 3rem;
     text-align: right;
-    width: 62.5rem; }
+    width: 100%;
+    max-width: 62.5rem; }
     .body__footer--copyright {
       position: relative;
       display: inline-block;
@@ -1431,7 +1443,10 @@ p {
         vertical-align: middle;
         display: inline-block;
         padding: 0 0.5rem; }
-    .body__footer .icon--twitter {
+	.body__footer .icon--youtube {
+	  text-align: center;
+	  width: auto; }
+	.body__footer .icon--twitter {
       text-align: center;
       width: auto; }
     .body__footer .icon--facebook {
@@ -1440,8 +1455,10 @@ p {
     .body__footer .icon--blindside {
       width: auto; }
     .body__footer .icon--unrealengine {
-      text-align: right;
-      width: auto; } }
+      width: auto; }
+  	.body__footer .icon--steam {
+	  text-align: right;
+	  width: auto; } }
 
 .modal {
   display: none;
@@ -1691,7 +1708,8 @@ body {
     .main--row {
       position: relative;
       height: 100%;
-      width: 62.5rem;
+      width: 100%;
+	  max-width: 62.5rem;
       margin-left: auto;
       margin-right: auto; }
       .main--row::after {
