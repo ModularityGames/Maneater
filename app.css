@@ -816,7 +816,7 @@ p {
       height: 3.125rem;
       fill: #1a8a79; }
   .featurelist--details {
-    width: 80%;
+    width: 100%;
     display: inline-block;
     padding-left: 1rem; }
     .featurelist--details-title {
