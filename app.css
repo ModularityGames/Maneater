@@ -1938,12 +1938,9 @@ sup {
         position: relative;
         top: 0.1875rem; }
 
-@media screen and (min-width: 64.0625rem) {
-  .article-gallery.active {
-    height: 25rem; } }
-
-.article--presskit .gallery__link {
-  border: solid 6px black; }
+.article-gallery .gallery__presskit  {
+  border: solid 6px black;
+  width: calc(99.99% - 1.375rem); }
 
 .article--contact .gallery__thumb {
   width: 28%;
