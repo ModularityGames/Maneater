@@ -1351,6 +1351,12 @@ p {
 	    .body__footer .icon--steam .svg {
 	      width: 2.5rem;
 	      height: 3.75rem; }
+	      .body__footer .icon--twi {
+	        padding: 0 !important;
+	        text-align: left; }
+	        .body__footer .icon--twi img {
+	          height: 3.75rem;
+	          width: 8.55rem; }
 
 .sound--button {
   position: absolute;
