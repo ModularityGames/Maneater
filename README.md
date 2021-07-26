@@ -8,5 +8,7 @@ Maneater is an Action RPG from the minds behind "Depth" . Our goal is take the s
 
 ## Get in touch
 Our homepage https://maneatergame.com
+
 IndieDB profile http://www.indiedb.com/games/maneater
+
 Email jaws@maneatergame.com
